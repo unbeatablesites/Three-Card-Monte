@@ -22,8 +22,6 @@ public class App {
                 "\t##  ##  ##\n" +
                 "\t##  ##  ##\n" +
                 "\t1   2   3\n" + "Enter selection here  ++++++>");
-
-
     }
 
     public static void displayMessageForOne() {
@@ -35,15 +33,15 @@ public class App {
 
     public static void displayMessageForTwo() {
 
-        System.out.println("    AA  ##  ##\n" +
-                "\tAA  ##  ##\n" +
+        System.out.println("    ##  AA  ##\n" +
+                "\t##  AA  ##\n" +
                 "\t1   2   3");
     }
 
     public static void displayMessageForThree() {
 
-        System.out.println("    AA  ##  ##\n" +
-                "\tAA  ##  ##\n" +
+        System.out.println("    ##  ##  AA\n" +
+                "\t##  ##  AA\n" +
                 "\t1   2   3");
     }
 
