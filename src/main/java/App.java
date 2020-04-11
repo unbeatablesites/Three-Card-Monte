@@ -5,10 +5,10 @@ public class App {
 
     public static void main(String[] args) {
         displayMessage();
-
+        selectionFromUser();
         selectRandomDeckOfCards();
 
-        System.out.println(selectionFromUser());
+
     }
 
 
@@ -25,24 +25,33 @@ public class App {
                 "\t1   2   3");
     }
 
-    public static int selectionFromUser(){
-
-        Scanner scan = new Scanner(System.in);
-
-        int userInput  = scan.nextInt();
-
-        return userInput;
-
-    }
 
     public static void selectRandomDeckOfCards(){
 
+        Scanner scan = new Scanner(System.in);
         Random randomDeck = new Random();
-        int randomNumber;
 
-       for(int i = 0; i < 20; i++){
-           System.out.println(randomNumber = 1 +randomDeck.nextInt(5));
-       }
-        System.out.println("Done");
+        int randomNumber = 1 +randomDeck.nextInt(3);
+        int userInput  = scan.nextInt();
+
+        if(randomNumber == 1 && randomNumber == userInput){
+
+            System.out.println("Working");
+
+        }
+
+        if(randomNumber == 2 && randomNumber == userInput){
+
+            System.out.println("Working");
+
+        }
+
+        if(randomNumber == 3 && randomNumber == userInput){
+
+            System.out.println("Working");
+
+        }
+
+
     }
 };
