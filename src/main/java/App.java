@@ -29,25 +29,28 @@ public class App {
                 "\t1   2   3\n" + "Enter selection here  ++++++>");
     }
 
-    public static void displayMessageForOne() {
+    public static int displayMessageForOne() {
 
         System.out.println("    AA  ##  ##\n" +
                 "\tAA  ##  ##\n" +
                 "\t1   2   3");
+        return 1;
     }
 
-    public static void displayMessageForTwo() {
+    public static int displayMessageForTwo() {
 
         System.out.println("    ##  AA  ##\n" +
                 "\t##  AA  ##\n" +
                 "\t1   2   3");
+        return 2;
     }
 
-    public static void displayMessageForThree() {
+    public static int displayMessageForThree() {
 
         System.out.println("    ##  ##  AA\n" +
                 "\t##  ##  AA\n" +
                 "\t1   2   3");
+        return 3;
     }
 
 
