@@ -62,9 +62,7 @@ public class App {
 
         if(userInput == 1 && randomNumber == 1 ){
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
-            System.out.println("    AA  ##  ##\n" +
-                    "\tAA  ##  ##\n" +
-                    "\t1   2   3");
+            displayMessageForOne();
 
         } else if(userInput == 2 && randomNumber == 2){
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
