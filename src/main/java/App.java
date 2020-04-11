@@ -1,11 +1,14 @@
+import java.util.Scanner;
+
 public class App {
 
     public static void main(String[] args) {
-        doLogic();
+        displayMessage();
+        selectOneTwoOrThree();
     }
 
 
-    public static void doLogic(){
+    public static void displayMessage(){
 
         System.out.println("You slide up to Fast Eddie's card table and plop down your cash.\n" +
                 "He glances at you out of the corner of his eye and starts shuffling.\n" +
@@ -16,7 +19,15 @@ public class App {
                 "\t##  ##  ##\n" +
                 "\t##  ##  ##\n" +
                 "\t1   2   3");
+    }
+
+    public static void selectOneTwoOrThree(){
+
+        Scanner scan = new Scanner(System.in);
+
+        int userInput  = scan.nextInt();
 
 
     }
+
 };
