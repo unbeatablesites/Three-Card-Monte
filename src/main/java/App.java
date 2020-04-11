@@ -41,7 +41,7 @@ public class App {
         int randomNumber;
 
        for(int i = 0; i < 20; i++){
-           System.out.println(randomNumber = 1 +randomDeck.nextInt(3));
+           System.out.println(randomNumber = 1 +randomDeck.nextInt(5));
        }
         System.out.println("Done");
     }
