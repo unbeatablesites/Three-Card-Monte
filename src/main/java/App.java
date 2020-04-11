@@ -33,19 +33,19 @@ public class App {
         int randomNumber = 1 +randomDeck.nextInt(3);
         int userInput  = scan.nextInt();
 
-        if(randomNumber == 1 && randomNumber == userInput){
+        if(randomNumber == 1 ){
 
             System.out.println("Working");
 
         }
 
-        if(randomNumber == 2 && randomNumber == userInput){
+        if(randomNumber == 2 ){
 
             System.out.println("Working");
 
         }
 
-        if(randomNumber == 3 && randomNumber == userInput){
+        if(randomNumber == 3 ){
 
             System.out.println("Working");
 
