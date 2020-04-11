@@ -26,6 +26,31 @@ public class App {
 
     }
 
+    public static void displayMessageForOne(){
+
+        System.out.println("    AA  ##  ##\n" +
+                "\tAA  ##  ##\n" +
+                "\t1   2   3");
+
+
+    }
+    public static void displayMessageForTwo(){
+
+        System.out.println("    AA  ##  ##\n" +
+                "\tAA  ##  ##\n" +
+                "\t1   2   3");
+
+
+    }
+    public static void displayMessageForThree(){
+
+        System.out.println("    AA  ##  ##\n" +
+                "\tAA  ##  ##\n" +
+                "\t1   2   3");
+
+
+    }
+
 
     public static void selectRandomDeckOfCards(){
 
