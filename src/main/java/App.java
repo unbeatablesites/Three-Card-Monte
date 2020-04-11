@@ -11,6 +11,12 @@ public class App {
                 "He glances at you out of the corner of his eye and starts shuffling.\n" +
                 "He lays down three cards.\n" +
                 "\n" +
-                "Which one is the ace?");
+                "Which one is the ace?\n" +
+                "\n" +
+                "\t##  ##  ##\n" +
+                "\t##  ##  ##\n" +
+                "\t1   2   3");
+
+
     }
 };
