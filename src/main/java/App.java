@@ -38,35 +38,11 @@ public class App {
     public static void selectRandomDeckOfCards(){
 
         Random randomDeck = new Random();
+        int randomNumber;
 
-        int randomNumber = 1 +randomDeck.nextInt(3);
-
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-        System.out.println(randomNumber);
-
+       for(int i = 0; i < 20; i++){
+           System.out.println(randomNumber = 1 +randomDeck.nextInt(3));
+       }
+        System.out.println("Done");
     }
-
 };
