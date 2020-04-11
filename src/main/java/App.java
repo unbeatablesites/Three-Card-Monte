@@ -33,21 +33,29 @@ public class App {
         int randomNumber = 1 +randomDeck.nextInt(3);
         int userInput  = scan.nextInt();
 
-        if(randomNumber == 1 ){
+        if(userInput == 1 && randomNumber == 1 ){
+            System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
+            System.out.println("    AA  ##  ##\n" +
+                    "\tAA  ##  ##\n" +
+                    "\t1   2   3");
 
-            System.out.println("Working");
+        }else{
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number "+randomNumber+".");
+        }
+
+        if(userInput == 2 && randomNumber == 2){
+
+            System.out.println("    ##  AA  ##\n" +
+                    "\t##  AA  ##\n" +
+                    "\t1   2   3");
 
         }
 
-        if(randomNumber == 2 ){
+        if(userInput == 3 && randomNumber == 3){
 
-            System.out.println("Working");
-
-        }
-
-        if(randomNumber == 3 ){
-
-            System.out.println("Working");
+            System.out.println("    ##  ##  AA\n" +
+                    "\t##  ##  AA\n" +
+                    "\t1   2   3");
 
         }
 
