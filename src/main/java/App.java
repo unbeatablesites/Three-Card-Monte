@@ -21,7 +21,9 @@ public class App {
                 "\n" +
                 "\t##  ##  ##\n" +
                 "\t##  ##  ##\n" +
-                "\t1   2   3");
+                "\t1   2   3\n"+"Enter selection here  ++++++>");
+
+
     }
 
 
@@ -41,24 +43,42 @@ public class App {
 
         }else{
             System.out.println("Ha! Fast Eddie wins again! The ace was card number "+randomNumber+".");
+            System.out.println("    AA  ##  ##\n" +
+                    "\tAA  ##  ##\n" +
+                    "\t1   2   3");
         }
 
-        if(userInput == 2 && randomNumber == 2){
 
+
+
+        if(userInput == 2 && randomNumber == 2){
+            System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             System.out.println("    ##  AA  ##\n" +
                     "\t##  AA  ##\n" +
                     "\t1   2   3");
 
-        }
+        }else{
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number "+randomNumber+".");
+            System.out.println("    ##  AA  ##\n" +
+                    "\t##  AA  ##\n" +
+                    "\t1   2   3");
+
+
+
 
         if(userInput == 3 && randomNumber == 3){
-
+            System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             System.out.println("    ##  ##  AA\n" +
                     "\t##  ##  AA\n" +
                     "\t1   2   3");
 
+        }else{
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number "+randomNumber+".");
+            System.out.println("    ##  ##  AA\n" +
+                    "\t##  ##  AA\n" +
+                    "\t1   2   3");
+
+            }
         }
-
-
     }
-};
+}
