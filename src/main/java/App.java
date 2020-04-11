@@ -31,8 +31,6 @@ public class App {
         System.out.println("    AA  ##  ##\n" +
                 "\tAA  ##  ##\n" +
                 "\t1   2   3");
-
-
     }
 
     public static void displayMessageForTwo() {
@@ -40,8 +38,6 @@ public class App {
         System.out.println("    AA  ##  ##\n" +
                 "\tAA  ##  ##\n" +
                 "\t1   2   3");
-
-
     }
 
     public static void displayMessageForThree() {
@@ -49,8 +45,6 @@ public class App {
         System.out.println("    AA  ##  ##\n" +
                 "\tAA  ##  ##\n" +
                 "\t1   2   3");
-
-
     }
 
 
@@ -77,6 +71,17 @@ public class App {
         }else if (userInput == 1 && randomNumber != 1) {
             System.out.println("Ha! Fast Eddie wins again! The ace was card number "+randomNumber+".");
             displayMessageForOne();
+
+        }else if (userInput == 2 && randomNumber != 2) {
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number " + randomNumber + ".");
+            displayMessageForTwo();
+
+        }else if (userInput == 3 && randomNumber != 3) {
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number " + randomNumber + ".");
+            displayMessageForThree();
+        }
+        else {
+            System.out.println("You did not enter the correct number");
         }
     }
 }
