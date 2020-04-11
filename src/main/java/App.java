@@ -6,7 +6,7 @@ public class App {
     public static void main(String[] args) {
         displayMessage();
 
-
+        selectRandomDeckOfCards();
 
         System.out.println(selectionFromUser());
     }
