@@ -1,10 +1,14 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class App {
 
     public static void main(String[] args) {
         displayMessage();
-        selectOneTwoOrThree();
+
+
+
+        System.out.println(selectionFromUser());
     }
 
 
@@ -21,12 +25,47 @@ public class App {
                 "\t1   2   3");
     }
 
-    public static void selectOneTwoOrThree(){
+    public static int selectionFromUser(){
 
         Scanner scan = new Scanner(System.in);
 
         int userInput  = scan.nextInt();
 
+        return userInput;
+
+    }
+
+    public static void selectRandomDeckOfCards(){
+
+        Random randomDeck = new Random();
+
+        int randomNumber = 1 +randomDeck.nextInt(3);
+
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
+        System.out.println(randomNumber);
 
     }
 
