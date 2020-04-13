@@ -74,17 +74,8 @@ public class App {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForThree();
 
-        }else if (userInput == 1 && randomNumber != 1) {
-            System.out.println("Ha! Fast Eddie wins again! The ace was card number "+randomNumber+".");
-            displayMessageForOne();
+        }else if(){
 
-        }else if (userInput == 2 && randomNumber != 2) {
-            System.out.println("Ha! Fast Eddie wins again! The ace was card number " + randomNumber + ".");
-            displayMessageForTwo();
-
-        }else if (userInput == 3 && randomNumber != 3) {
-            System.out.println("Ha! Fast Eddie wins again! The ace was card number " + randomNumber + ".");
-            displayMessageForThree();
         }
         else {
             System.out.println("You did not enter the correct number");
