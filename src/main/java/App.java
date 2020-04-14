@@ -23,7 +23,6 @@ public class App {
                 "\t##  ##  ##\n" +
                 "\t1   2   3\n" + "Enter selection here  ++++++>");
     }
-
     public static int displayMessageForOne() {
 
         System.out.println("    AA  ##  ##\n" +
@@ -31,7 +30,6 @@ public class App {
                 "\t1   2   3");
         return 1;
     }
-
     public static int displayMessageForTwo() {
 
         System.out.println("    ##  AA  ##\n" +
@@ -39,7 +37,6 @@ public class App {
                 "\t1   2   3");
         return 2;
     }
-
     public static int displayMessageForThree() {
 
         System.out.println("    ##  ##  AA\n" +
@@ -47,7 +44,6 @@ public class App {
                 "\t1   2   3");
         return 3;
     }
-
 
     public static void selectRandomDeckOfCards() {
 
@@ -60,18 +56,13 @@ public class App {
         if (userInput == 1 && randomNumber == 1) {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForOne();
-
         } else if (userInput == 2 && randomNumber == 2) {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForTwo();
-
         } else if (userInput == 3 && randomNumber == 3) {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForThree();
-        }
-
-
-        if (randomNumber != userInput && randomNumber == 1) {
+        } else if (randomNumber != userInput && randomNumber == 1) {
             System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
             displayMessageForOne();
         } else if (randomNumber != userInput && randomNumber == 2) {
