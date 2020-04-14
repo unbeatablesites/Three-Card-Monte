@@ -68,9 +68,7 @@ public class App {
         } else if (userInput == 3 && randomNumber == 3) {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForThree();
-        }else {
-            System.out.println("You did not enter the correct number");
-
+        }
 
 
         if (randomNumber != userInput && randomNumber == 1) {
@@ -87,6 +85,6 @@ public class App {
             }
         }
     }
-}
+
 
 // Working
