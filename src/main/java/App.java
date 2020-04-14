@@ -74,15 +74,21 @@ public class App {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForThree();
 
-        }switch(randomNumber == 1 && randomNumber != userInput) {
-            case randomNumber = 1:
+        }switch(randomNumber) {
+            case 1:
                 System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
+                displayMessageForOne();
                 break;
-            case y:
-                // code block
+            case 2:
+                System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
+                displayMessageForTwo();
+                break;
+           case 3:
+                System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
+                displayMessageForThree();
                 break;
             default:
-                // code block
+                System.out.println("Something broke");
         }
         else {
             System.out.println("You did not enter the correct number");
