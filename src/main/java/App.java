@@ -11,11 +11,6 @@ public class App {
     }
 
 
-
-
-
-
-
     public static void displayMessage() {
 
         System.out.println("You slide up to Fast Eddie's card table and plop down your cash.\n" +
@@ -73,25 +68,23 @@ public class App {
         } else if (userInput == 3 && randomNumber == 3) {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForThree();
-
-        }switch(randomNumber) {
-            case 1:
-                System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
-                displayMessageForOne();
-                break;
-            case 2:
-                System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
-                displayMessageForTwo();
-                break;
-           case 3:
-                System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
-                displayMessageForThree();
-                break;
-            default:
-                System.out.println("Something broke");
-        }
-        else {
+        }else {
             System.out.println("You did not enter the correct number");
+
+
+
+        if (randomNumber != userInput) {
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
+            displayMessageForOne();
+        } else if (randomNumber != userInput) {
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
+            displayMessageForTwo();
+        } else if (randomNumber != userInput) {
+            System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
+            displayMessageForThree();
+        } else {
+            System.out.println("Something broke");
+            }
         }
     }
 }
