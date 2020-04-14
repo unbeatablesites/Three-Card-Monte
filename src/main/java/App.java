@@ -74,8 +74,15 @@ public class App {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForThree();
 
-        }else if(){
-
+        }switch(randomNumber) {
+            case x:
+                // code block
+                break;
+            case y:
+                // code block
+                break;
+            default:
+                // code block
         }
         else {
             System.out.println("You did not enter the correct number");
