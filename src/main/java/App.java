@@ -74,9 +74,9 @@ public class App {
             System.out.println("You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.");
             displayMessageForThree();
 
-        }switch(randomNumber) {
-            case x:
-                // code block
+        }switch(randomNumber == 1 && randomNumber != userInput) {
+            case randomNumber = 1:
+                System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
                 break;
             case y:
                 // code block
