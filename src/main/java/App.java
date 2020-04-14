@@ -73,13 +73,13 @@ public class App {
 
 
 
-        if (randomNumber != userInput) {
+        if (randomNumber != userInput && randomNumber == 1) {
             System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
             displayMessageForOne();
-        } else if (randomNumber != userInput) {
+        } else if (randomNumber != userInput && randomNumber == 2) {
             System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
             displayMessageForTwo();
-        } else if (randomNumber != userInput) {
+        } else if (randomNumber != userInput && randomNumber == 3) {
             System.out.println("Ha! Fast Eddie wins again! The ace was card number 3.\n");
             displayMessageForThree();
         } else {
